@@ -39,7 +39,7 @@ android {
 
     defaultConfig {
         applicationId = "com.alpha.showcase"
-        minSdk = 19 #libs.versions.android.minSdk.get().toInt()
+        minSdk = 19
         targetSdk = libs.versions.android.targetSdk.get().toInt()
         versionCode = project.extra["versionCode"] as Int
         versionName = project.extra["versionName"] as String
