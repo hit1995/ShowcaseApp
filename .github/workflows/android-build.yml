@@ -25,10 +25,7 @@ jobs:
         cmdline-tools-version: 12266719
         accept-android-sdk-licenses: true
         log-accepted-android-sdk-licenses: true
-        packages: |
-          platform-tools
-          platforms;android-29
-          build-tools;29.0.3
+        packages: platform-tools,platforms;android-29,build-tools;29.0.3
 
     - name: Grant gradlew executable
       run: chmod +x ./gradlew
